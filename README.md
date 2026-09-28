@@ -42,7 +42,7 @@ around.
 ## Installation
 
 ```bash
-git clone <repository>
+git clone https://github.com/BhalaniManav/caesar-breaker.git
 cd caesar-breaker
 
 python -m venv .venv
