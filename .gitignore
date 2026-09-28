@@ -97,3 +97,10 @@ coverage.xml
 # =========================
 
 .ipynb_checkpoints/
+
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+.eggs/
