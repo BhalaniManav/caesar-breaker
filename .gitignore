@@ -1,0 +1,99 @@
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual Environments
+# =========================
+
+myenv/
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+# Python Packaging
+# =========================
+
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# =========================
+# Testing
+# =========================
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# =========================
+# Type Checking / Linters
+# =========================
+
+.mypy_cache/
+.pyre/
+.ruff_cache/
+
+# =========================
+# Environment Variables
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+# macOS
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# =========================
+# IDE / Editors
+# =========================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Logs
+# =========================
+
+*.log
+
+# =========================
+# Temporary Files
+# =========================
+
+*.tmp
+*.temp
+*.bak
+
+# =========================
+# Coverage / Reports
+# =========================
+
+coverage.xml
+*.cover
+.pytest_cache/
+
+# =========================
+# Jupyter
+# =========================
+
+.ipynb_checkpoints/
