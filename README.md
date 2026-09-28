@@ -72,6 +72,8 @@ Run:
 caesar-breaker --help
 ```
 
+![CLI Help](docs/screenshots/help.png)
+
 ## Usage
 
 ### Encrypt
@@ -98,6 +100,8 @@ Key       : 3
 Plaintext : HELLO WORLD
 ```
 
+![Encryption and Decryption](docs/screenshots/encrypt-decrypt.png)
+
 ### Show every possible key
 
 ```bash
@@ -107,6 +111,8 @@ caesar-breaker break "KHOOR ZRUOG"
 Displays a table with all 26 keys (0 through 25) and marks the most
 likely plaintext with a star. Nothing is hidden - every key is always
 shown.
+
+![Caesar Cipher Breaker](docs/screenshots/break.png)
 
 ### Automatic analysis
 
@@ -129,6 +135,7 @@ This runs the same full 26-key breakdown as `caesar-breaker break "KHOOR ZRUOG"`
 ```bash
 caesar-breaker explain "KHOOR" --key 3
 ```
+![Mathematical Explanation](docs/screenshots/explain.png)
 
 Walks through the calculation for every character, for learning
 purposes.
